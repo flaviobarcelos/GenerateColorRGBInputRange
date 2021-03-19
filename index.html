@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade RGB</title>
+
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+<body>
+    <div id="content">
+        <h1>GERE SUA COR ATRAVÉS DO SISTEMA RGB</h1>
+        <div class="bloco">
+            <div class="titleRGB">
+                <span>(R) Red</span>
+            </div>
+            <br>
+            <input type="range" name="red" id="red" class="range" min="0" max="255" value="0"/>
+            <input type="text" name="textRed" id="textRed" class="text" value="0" disabled>
+        </div>
+
+        <div class="bloco">
+            <div class="titleRGB">
+                <span>(G) Green</span>
+            </div>
+            <br>
+            <input type="range" name="green" id="green" class="range" min="0" max="255" value="0"/>
+            <input type="text" name="textGreen" id="textGreen" class="text" value="0" disabled>
+        </div>
+        
+        <div class="bloco">
+            <div class="titleRGB">
+                <span>(B) Blue</span>
+            </div>
+            <br>
+            <input type="range" name="blue" id="blue" class="range" min="0" max="255" value="0"/>
+            <input type="text" name="textBlue" id="textBlue" class="text" value="0" disabled>
+        </div>
+
+        <div id="resultRGB"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

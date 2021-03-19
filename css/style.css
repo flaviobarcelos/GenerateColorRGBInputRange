@@ -1,0 +1,49 @@
+span {
+  margin-right: 50px;
+}
+
+.bloco {
+  width: 30%;
+  float: left;
+  margin: 20px 15px;
+}
+
+.titleRGB {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  width: 300px;
+}
+
+.text {
+  width: 30px;
+}
+
+.range {
+  width: 80%;
+}
+
+#resultRGB {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  margin: 50px auto;
+  border-radius: 50%;
+  border: 1px solid #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+}
+
+#content {
+  width: 70%;
+  padding: 70px 50px 50px 50px;
+  margin: 10% auto;
+  background: #ffffff;
+  border-radius: 100px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+body {
+  background-color: #cecece;
+}
